@@ -2,7 +2,7 @@
 
 A Flutter package consisting of stacks that allows adding any widgets, and enables editing, deleting, and changing the order of layers.
 
-[![pub package](https://img.shields.io/pub/v/stack_board?logo=dart&label=stable&style=flat-square)](https://pub.dev/packages/stack_art_board)
+[![pub package](https://img.shields.io/pub/v/stack_art_board?logo=dart&label=stable&style=flat-square)](https://pub.dev/packages/stack_art_board)
 [![GitHub stars](https://img.shields.io/github/stars/Apach3Q/stack_art_board?logo=github&style=flat-square)](https://github.com/Apach3Q/stack_art_board/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Apach3Q/stack_art_board?logo=github&style=flat-square)](https://github.com/Apach3Q/stack_art_board/network/members)
 
