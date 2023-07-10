@@ -1,6 +1,6 @@
 name: stack_art_board
 description: A Flutter package consisting of stacks that allows adding any widgets, and enables editing, deleting, and changing the order of layers.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Apach3Q/stack_art_board
 
 environment:
