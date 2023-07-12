@@ -9,12 +9,30 @@ A Flutter package consisting of stacks that allows adding any widgets, and enabl
 ---
 For a more throughout example see the example.
 
-
-https://github.com/Apach3Q/stack_art_board/assets/21135761/e35e814d-ddc9-4927-937a-e99daa11df1d
-
-
+[video](https://github.com/Apach3Q/stack_art_board/assets/21135761/e35e814d-ddc9-4927-937a-e99daa11df1d)
 
 ---
+## How to Use
+
+### Getting started
+
+In the `pubspec.yaml` of your flutter project, add the following dependency:
+
+```yaml
+dependencies:
+  ...
+  stack_art_board: <latest_version>
+```
+
+In your library add the following import:
+
+```dart
+import 'package:stack_art_board/stack_art_board.dart';
+```
+
+For help getting started with Flutter, view the online [documentation](https://docs.flutter.dev/).
+
+
 ### Initialize a `StackArtboard`
 
 ```dart
@@ -37,7 +55,6 @@ StackArtBoard(
     background: Container(color: Colors.green),
 ),
 ```
----
 
 ### Add a custom Widget
 
@@ -59,7 +76,7 @@ controller.add(
     ),
 );
 ```
----
+
 ### Add an Image widget with the ability to penetrate click events through transparent areas of the image.
 
 ```dart
@@ -79,7 +96,6 @@ controller.add(
     ),
 );
 ```
----
 
 ### All canvas operations
 
@@ -118,5 +134,16 @@ void reset()
 ```dart
 void dispose()
 ```
+---
 
+## Sponsoring
 
+I'm working on my packages on my free-time, but I don't have as much time as I would. If this package or any other package I created is helping you, please consider to sponsor me so that I can take time to read the issues, fix bugs, merge pull requests and add features to these packages.
+
+---
+## Contributions
+
+Feel free to contribute to this project.
+
+If you find a bug or want a feature, but don't know how to fix/implement it, please fill an [issue](https://github.com/Apach3Q/stack_art_board/issues).  
+If you fixed a bug or implemented a feature, please send a [pull request](https://github.com/Apach3Q/stack_art_board/pulls).

@@ -15,12 +15,22 @@ import 'service/select_canvas_service.dart';
 import 'stack_art_board_controller.dart';
 
 class StackArtBoard extends StatelessWidget {
+  ///  the unique key of the art board
   final Key stackArtBoardKey;
+
+  /// control the number of canvases, add, reduce or change the order
   final StackArtBoardController controller;
+
+  /// art board config
   final ArtBoardConfig artBoardConfig;
+
+  /// background widget
   final Widget? background;
+
+  /// use to take screenshot
   final GlobalKey? screenShotKey;
 
+  /// Creates a stack layout widget with actionable widgets
   const StackArtBoard({
     Key? key,
     required this.stackArtBoardKey,
@@ -175,7 +185,7 @@ class StackArtBoardChildState extends ConsumerState<_StackArtBoardChild> {
     canvasListService.clear();
   }
 
-  void reseat() {
+  void reset() {
     final canvasListService = ref.read(listProvider.notifier);
     canvasListService.resetCanvasKey();
   }

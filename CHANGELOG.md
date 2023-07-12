@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Update README.md, add code documentation comments 
+
 ## 0.0.2
 
 * Update README.md
